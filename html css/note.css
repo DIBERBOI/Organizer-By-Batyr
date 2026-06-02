@@ -1,0 +1,221 @@
+body {
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+video{
+    position: absolute;
+    
+    z-index: -1;
+    top: 1px;
+    right: -0px;
+}
+
+.floverIMG{
+    position: absolute;
+    z-index: -1;
+    right: 1px;
+    top: -40px;
+    width: 600px;
+    height: 400px;
+}
+
+.floverIMG1{
+    position: absolute;
+    top: 400px;
+    left: -50px;
+    z-index: -1;
+    width: 650px;
+    height: 800px;
+}
+
+.informSite{
+    position: absolute;
+}
+/* .blure:hover{
+    background-color: rgba(255, 255, 255, 0.07);
+    filter: blur(15px);
+}  */
+
+.noteBOX{
+    position: absolute;
+    filter: blur(0px);
+
+    margin-top: 85px;
+    margin-left: 150px;
+    
+
+    width: 1000px;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.336);
+    backdrop-filter: blur(10px);
+    border-radius:  57px;
+
+    transition: 1.3s;
+    transform: scale(1.00);
+    box-shadow: inset 0px 0px 20px rgba(255, 255, 255, 0.316);
+} 
+
+.noteBOX:hover{
+    background-color: rgba(0, 0, 0, 0.441);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.358);
+    transform: scale(1.01);
+    backdrop-filter: blur(50px);
+    box-shadow: inset 0px 0px 20px rgba(255, 255, 255, 0.393);
+}
+.noteT{
+    width: 760px;
+    height: 720px;
+    
+    position: absolute;
+    top: 40px;
+    left: 200px;
+
+    font-size: 40px;
+    background-color: rgba(240, 248, 255, 0.16);
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    transition: 2s;
+
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.noteT:hover{
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.5s ease-in-out;
+    
+    
+}
+
+.blureN{
+    width: 660px;
+    height: 660px;
+
+    position: absolute;
+    top: 65px;
+    left: 255px;
+
+    background-color: rgb(255, 255, 255);
+    filter: blur(50px);
+}
+.buttN{
+    margin-left: 20px;
+    display: inline-flexbox;
+    flex-direction: column;
+    margin-top: 45px;
+    justify-content: space-between;
+    cursor: default;
+    
+}
+
+.btnClearN{
+    margin-top: 50px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    width: 160px;
+    height: 100px;
+    border-radius: 40px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 0px 20px rgba(182, 182, 182, 0.666);
+
+    transform: scale(1);
+    transition: all 0.5s ease-in-out;
+}
+
+.btnClearN.click:after{
+    transform: scale(1.5);
+}
+
+.btnClearN:hover{
+    transform: scale(0.95);
+    box-shadow: inset 0px 0px 20px rgba(255, 255, 255, 0.666);
+}
+
+.btnSaveN{
+    margin-top: 50px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    width: 160px;
+    height: 100px;
+    border-radius: 40px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.00);
+    box-shadow: inset 0px 0px 20px rgba(182, 182, 182, 0.666);
+}
+
+.btnSaveN:hover{
+    transform: scale(0.95);
+    box-shadow: inset 0px 0px 20px rgba(255, 255, 255, 0.666);
+}
+
+.color{
+    margin-top: 80px;
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+    width: 160px;
+    height: 10px;
+    border-radius: 40px;
+    background-color: rgba(252, 252, 252, 0.429);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.00);
+}
+
+.btnColorN {
+    margin-top: 20px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    width: 160px;
+    height: 100px;
+    border-radius: 40px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.00);
+    box-shadow: inset 0px 0px 20px rgba(182, 182, 182, 0.666);
+}
+
+.btnColorN:hover{
+    transform: scale(0.95);
+    box-shadow: inset 0px 0px 20px rgba(255, 255, 255, 0.666);
+}
+
+.btnColorTN {
+    margin-top: 50px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    width: 160px;
+    height: 100px;
+    border-radius: 40px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.00);
+    box-shadow: inset 0px 0px 20px rgba(182, 182, 182, 0.666);
+}
+
+.btnColorTN:hover{
+    transform: scale(0.95);
+    box-shadow: inset 0px 0px 20px rgba(255, 255, 255, 0.666);
+}

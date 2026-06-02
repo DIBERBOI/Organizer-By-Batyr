@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Organizer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+`   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Dela+Gothic+One&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/html css/calculator.css">
+    <link rel="stylesheet" href="/html css/weather.css">
+    <link rel="stylesheet" href="/html css/note.css">
+    <link rel="stylesheet" href="/html css/timer.css">
+    
+</head>
+<body>
+    Orozobekov Batyrbek
+    <div class="informSite">qwe</div>
+
+    <video autoplay muted loop src="/UI/0417(1).mp4"></video>
+    <img class="floverIMG" src="/UI/0_17c0cf_2b6bee31_orig.png" alt="Flover">
+    <img class="floverIMG1" src="/UI/d16f2195b530ce546a4fa1f6f04c95ea.png" alt="Flover">
+    
+    <div class="noteBOX" >
+        <div class="buttN">
+            <div class="btnClearN">clear</div>
+            <div class="btnSaveN">Save</div>
+            <div class="color">Color</div>
+            <div class="btnColorN">Backrnd</div>
+            <div class="btnColorTN">Text</div>
+        </div>
+        <div class="poloski">
+            <div class="blureN"></div>
+            <div class="polosa"></div>
+            <div class="polosa1"></div>
+            <div class="polosa2"></div>
+            <div class="polosa3"></div>
+            <div class="polosa4"></div>
+            <div class="polosa5"></div>
+            <div class="polosa6"></div>
+            <div class="polosa7"></div>
+            <div class="polosa8"></div>
+            <div class="polosa9"></div>
+            <div class="polosa10"></div>
+            <div class="polosa11"></div>
+        </div>
+       
+        <textarea class="noteT" cols="0"></textarea>
+    </div>
+
+    <div class="calclBOX">
+        <div class="blure"></div>
+
+        <p class="textCalc" >0</p>
+
+        <div class="butt">
+            
+
+            <div class="first" >
+                <div class="btn Clear">AC</div>
+                <div class="btn TTT">---</div>
+                <div class="btn BBB">---</div>
+                <div class="btn Divide">/</div>
+            </div>
+            
+            
+            <div class="two">
+                <div class="btn One">1</div>
+                <div class="btn Two">2</div>
+                <div class="btn Thr">3</div>
+                <div class="btn X">*</div>
+            </div>
+
+
+            <div class="three">
+                <div class="btn Fou">4</div>
+                <div class="btn Fif">5</div>
+                <div class="btn Six">6</div>
+                <div class="btn Minus">-</div>
+            </div>
+
+
+            <div class="four" >
+                <div class="btn Sev">7</div>
+                <div class="btn Eih">8</div>
+                <div class="btn Nin">9</div>
+                <div class="btn Pluse">+</div>
+            </div>
+
+
+            <div class="five">
+                <div class="btn Zero">0</div>
+                <div class="btn DZero">00</div>
+                <div class="btn hz">,</div>
+                <div class="btn Rav">=</div>
+            </div>
+        </div>
+    </div>   
+
+    
+    <div class="weatherBOX">
+        <div class="weatherT">
+            <div class="cityN">${timezone}</div>
+            <div class="infoTime">Сегодня в токио -- -- -- -- --</div>
+            <div class="info">
+                <div class="infoWT">темперетура: ${current.temperature_2m} °C</div>
+                <div class="infoSW">скорость ветра: ${current.wind_speed_10m} м/сек</div>
+                <div class="infoRain"> дождь: ${raint}</div>
+                <div class="infoDay">сейчас на улице: ${dayNightText}</div>
+            </div>
+        </div>
+    </div>  
+
+    <div class="timerBOX" >
+        <div class="timerT">00:00</div>
+        <div class="timerStart">запуск</div>
+        <div class="timerStop">стоп</div>
+    </div>
+
+    <script src="/javascript/calculator.js" defer></script>
+    <script src="/javascript/note.js" defer></script>
+    <script src="/javascript/weather.js" defer></script>
+    <script src="/javascript/timer.js" defer></script>
+
+
+
+</body>
+</html>
